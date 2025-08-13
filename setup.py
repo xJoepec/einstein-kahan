@@ -27,7 +27,6 @@ DESCRIPTION = "High-precision numerical summation with Kahan and Einstein-Kahan 
 AUTHOR = "Kahan Summation Contributors"
 AUTHOR_EMAIL = "contributors@kahan-summation.org"
 URL = "https://github.com/your-username/kahan-summation"
-LICENSE = "MIT"
 
 # Read long description from README
 def read_readme():
@@ -190,7 +189,6 @@ def main():
         author=AUTHOR,
         author_email=AUTHOR_EMAIL,
         url=URL,
-        license=LICENSE,
         
         # Package configuration
         packages=packages,
@@ -211,7 +209,6 @@ def main():
             "Development Status :: 5 - Production/Stable",
             "Intended Audience :: Science/Research",
             "Intended Audience :: Developers",
-            "License :: OSI Approved :: MIT License",
             "Programming Language :: Python :: 3",
             "Programming Language :: Python :: 3.8",
             "Programming Language :: Python :: 3.9", 

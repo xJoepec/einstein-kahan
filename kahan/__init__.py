@@ -22,7 +22,6 @@ from .algorithms import (
 
 __version__ = "1.0.0"
 __author__ = "Kahan Summation Contributors"
-__license__ = "MIT"
 
 __all__ = [
     "KahanAccumulator",

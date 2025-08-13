@@ -295,10 +295,6 @@ pip install -e ".[dev]"
 python setup.py build_ext --inplace
 ```
 
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
 ## Citation
 
 If you use this library in academic work, please cite:
@@ -327,4 +323,4 @@ If you use this library in academic work, please cite:
 
 ---
 
-**Status**: Production ready | **Version**: 1.0.0 | **Python**: 3.8+ | **License**: MIT
+**Status**: Production ready | **Version**: 1.0.0 | **Python**: 3.8+
