@@ -1,4 +1,4 @@
-# Kahan Summation Library
+# Kahan Summation Library (*work in progress*)
 
 A high-precision numerical summation library implementing Kahan's compensated summation algorithm and Einstein-Kahan geometric error correction for floating-point arithmetic.
 
@@ -284,7 +284,7 @@ python benchmarks/performance_comparison.py
 ### Development Setup
 
 ```bash
-git clone https://github.com/your-username/kahan-summation.git
+git clone https://github.com/xjoepec/kahan-summation.git
 cd kahan-summation
 pip install -e ".[dev]"
 ```
@@ -304,7 +304,7 @@ If you use this library in academic work, please cite:
   title={Kahan Summation Library: High-Precision Numerical Summation with Geometric Error Correction},
   author={Kahan Summation Contributors},
   year={2024},
-  url={https://github.com/your-username/kahan-summation}
+  url={https://github.com/xjoepec/kahan-summation}
 }
 ```
 
@@ -314,13 +314,7 @@ If you use this library in academic work, please cite:
 2. Higham, N. J. (2002). "Accuracy and Stability of Numerical Algorithms." SIAM.
 3. Einstein, A. (1915). "Die Feldgleichungen der Gravitation." Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften.
 
-## Related Projects
 
-- [NumPy](https://numpy.org/) - Fundamental array computing
-- [SciPy](https://scipy.org/) - Scientific computing algorithms  
-- [MPFR](https://www.mpfr.org/) - Multiple-precision floating-point library
-- [DoubleDouble](https://github.com/scibuilder/DoubleDo) - Extended precision arithmetic
 
 ---
-
-**Status**: Production ready | **Version**: 1.0.0 | **Python**: 3.8+
+**Version**: 1.0.1 | **Python**: 3.8+
