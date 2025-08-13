@@ -1,4 +1,4 @@
-# Kahan Summation Library (*work in progress*)
+# Kahan Summation Library (*work in progress...*)
 
 A high-precision numerical summation library implementing Kahan's compensated summation algorithm and Einstein-Kahan geometric error correction for floating-point arithmetic.
 
